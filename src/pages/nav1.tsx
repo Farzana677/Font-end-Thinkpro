@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Projects } from "./project";
 
 export default function nav1() {
