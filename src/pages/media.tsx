@@ -6,7 +6,7 @@ export default function Media() {
     {
       id: 1,
       imageSrc: media,
-      title: "Transforming Ideas into Stunning Realities.",
+      title: "Transforming Ideas into Stunning Realitievs.",
       description: "Toronto Life",
       linkText: "Learn More",
     },
