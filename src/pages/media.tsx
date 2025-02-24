@@ -6,7 +6,7 @@ export default function Media() {
     {
       id: 1,
       imageSrc: media,
-      title: "Transforming Ideas into Stunning Realities.",
+      title: "Transforming Ideas into Stunning Realitievs.",
       description: "Toronto Life",
       linkText: "Learn More",
     },
@@ -34,7 +34,7 @@ export default function Media() {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {cards.map((card) => (
-          <div key={card.id} className="flex flex-col">
+          <div key={card.id} className="flex flex-col gap-8">
             <div className="relative">
               <div className="h-[225px] w-full overflow-hidden">
                 <img
@@ -43,20 +43,18 @@ export default function Media() {
                   src={card.imageSrc}
                 />
               </div>
-              <div className="w-full absolute -bottom-4 left-1/2 transform -translate-x-1/2 bg-red-600 py-4 px-8 md:w-[90%]  ">
-                <span className="text-white font-semi-bold text-center text-3xl">
+              <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 bg-red-600 py-4 px-8 md:w-[90%]">
+                <span className="text-white font-semibold text-center text-3xl">
                   TORONTO LIFE
                 </span>
               </div>
             </div>
 
-            <div className="mt-8 flex flex-col items-center">
-              <h2 className="text-[#393939] text-lg font-light text-center mb-2">
+            <div className="text-center gap-4">
+              <h2 className="text-[#393939] text-lg font-light">
                 {card.title}
               </h2>
-              <p className="text-[#64AF37] font-normal mb-2">
-                {card.description}
-              </p>
+              <p className="text-[#64AF37] font-normal">{card.description}</p>
               <button className="text-[#64AF37] font-normal hover:underline">
                 {card.linkText}
               </button>
