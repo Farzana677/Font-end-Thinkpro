@@ -4,9 +4,9 @@ import logo from "../assets/logo2.svg";
 import { Menu, X } from "lucide-react";
 
 const navigationItems = [
-  { path: "/", label: "Home" },
-  { path: "/about", label: "About" },
-  { path: "/cards", label: "Services" },
+  { path: "/", label: "Homee" },
+  { path: "/about", label: "Aboutt" },
+  { path: "/services", label: "Services" },
   { path: "/career", label: "Career" },
 ];
 export default function Sidebar() {
