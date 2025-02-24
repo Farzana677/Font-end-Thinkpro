@@ -4,7 +4,7 @@ import logo from "../assets/logo2.svg";
 import { Menu, X } from "lucide-react";
 
 const navigationItems = [
-  { path: "/", label: "Homee" },
+  { path: "/", label: "Home" },
   { path: "/about", label: "About" },
   { path: "/services", label: "Services" },
   { path: "/career", label: "Career" },
