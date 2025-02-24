@@ -6,7 +6,7 @@ import { Menu, X } from "lucide-react";
 const navigationItems = [
   { path: "/", label: "Home" },
   { path: "/about", label: "About" },
-  { path: "/cards", label: "Services" },
+  { path: "/services", label: "Services" },
   { path: "/career", label: "Career" },
 ];
 export default function Sidebar() {

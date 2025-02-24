@@ -43,7 +43,7 @@ const products: Product[] = [
 
 const Product: React.FC<ProductProps> = ({ img, productName, description }) => {
   return (
-    <div className="bg-white overflow-hidden">
+    <section className="bg-white overflow-hidden">
       <img src={img} alt={productName} className="w-full h-64 object-cover" />
       <div className="p-4">
         <h3 className="text-xl font-semibold text-[#393939]">{productName}</h3>
@@ -54,17 +54,16 @@ const Product: React.FC<ProductProps> = ({ img, productName, description }) => {
           href=""
           className="text-[#64AF37] text-lg font-semibold tracking-wide underline"
         >
-          {" "}
           Learn More
         </a>
       </div>
-    </div>
+    </section>
   );
 };
 
 const Services = () => {
   return (
-    <div className="container mx-auto px-4">
+    <section className="container mx-auto px-4">
       <div className="text-center p-10 font-semibold text-3xl">
         <Title text="Services" />
       </div>
@@ -78,7 +77,7 @@ const Services = () => {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

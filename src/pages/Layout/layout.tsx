@@ -1,10 +1,10 @@
 import { Outlet } from "react-router";
 import Sidebar from "../../components/sidebar";
+import Footer from "../footer";
 
 const Layout = () => {
   return (
     <>
-      {/* Sidebar as top navigation */}
       <header className=" bg-white bg-opacity-80 backdrop-blur-sm top-0 sticky z-10 ">
         <Sidebar />
       </header>
@@ -13,6 +13,8 @@ const Layout = () => {
       <main>
         <Outlet />
       </main>
+
+      <Footer />
     </>
   );
 };

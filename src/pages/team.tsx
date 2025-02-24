@@ -30,37 +30,35 @@ export default function Team() {
 
   return (
     <>
-      <div className="container mx-auto px-5 ">
+      <section className="container mx-auto">
         <h3 className="text-center mb-4 text-[#393939] font-semibold text-2xl">
           “We are more than just builders; we are creators of inspiring spaces.”
-          <span className="flex flex-col p-4">
-            <span className="text-[#999] text-lg">-Emily Carter, CEO</span>
+          <span className="text-[#999] text-lg block mt-4">
+            -Emily Carter, CEO
           </span>
         </h3>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 ">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
           {cards.map((card) => (
-            <div key={card.id} className="p-4">
-              <div className="rounded-lg h-64 overflow-hidden">
+            <div className="p-4">
+              <div key={card.id} className="rounded-lg h-64 overflow-hidden">
                 <img
                   alt="content"
-                  className="object-cover object-center h-full w-full"
+                  className="object-cover object-center w-full h-full"
                   src={card.imageSrc}
                 />
               </div>
-              <h2 className="text-xl font-semibold text-[#393939] tracking-wide mt-5 text-center">
+              <h2 className="text-xl font-semibold text-[#393939] mt-5 text-center">
                 {card.title}
               </h2>
-              <p className="text-lg font-normal leading-relaxed p-2">
-                {card.description}
-              </p>
+              <p className="text-lg font-normal p-2">{card.description}</p>
               <a className="text-[#64AF37] inline-flex items-center p-2 underline">
                 {card.linkText}
               </a>
             </div>
           ))}
         </div>
-      </div>
+      </section>
     </>
   );
 }

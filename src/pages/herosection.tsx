@@ -2,7 +2,7 @@ import img from "../assets/christina.jpg";
 export default function Herosection() {
   return (
     <>
-      <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2  px-5 py-24 gap-2">
+      <section className="container mx-auto grid grid-cols-1 lg:grid-cols-2 px-5 py-24 gap-2">
         <img
           className="object-contain h-auto max-w-full mx-auto"
           alt="hero"
@@ -27,7 +27,7 @@ export default function Herosection() {
             Let’s Collaborate
           </button>
         </div>
-      </div>
+      </section>
     </>
   );
 }
