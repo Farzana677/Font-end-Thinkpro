@@ -5,7 +5,7 @@ import Footer from "../footer";
 const Layout = () => {
   return (
     <>
-      <header className=" bg-white bg-opacity-80 backdrop-blur-sm top-0 sticky z-10 ">
+      <header className=" bg-white bg-opacity-80 backdrop-blur-sm top-0 sticky z-10">
         <Sidebar />
       </header>
 

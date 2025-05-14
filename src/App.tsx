@@ -6,14 +6,13 @@ import About from "./pages/about";
 import Runo from "./pages/runo";
 import Services from "./pages/services";
 import NotFound from "./components/notFound";
+import { GoogleLogin } from "@react-oauth/google";
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
-          {/* <Route path="/career" element={<Career />} /> */}
-
           <Route path="/runo" element={<Runo />} />
 
           <Route path="/" element={<Layout />}>
@@ -24,6 +23,14 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
+      {/* <GoogleLogin
+        onSuccess={(credentialResponse) => {
+          console.log(credentialResponse);
+        }}
+        onError={() => {
+          console.log("Login Failed");
+        }}
+      /> */}
     </>
   );
 }

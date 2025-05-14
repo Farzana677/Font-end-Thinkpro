@@ -23,28 +23,28 @@ export const Projects = () => {
               src={img1}
               alt="gallery"
               className="w-full h-full object-cover object-center block"
-            ></img>
+            />
           </div>
           <div className="w-full md:p-2 p-1 md:w-1/2 ">
             <img
               src={img1}
               alt="gallery"
               className="w-full h-full object-cover object-center block"
-            ></img>
+            />
           </div>
           <div className="w-full md:p-2 p-1 md:w-1/2 ">
             <img
               src={img1}
               alt="gallery"
               className="w-full h-full object-cover object-center block"
-            ></img>
+            />
           </div>
           <div className="w-full md:p-2 p-1 md:w-1/2 ">
             <img
               src={img1}
               alt="gallery"
               className="w-full h-full object-cover object-center block"
-            ></img>
+            />
           </div>
         </div>
       </div>

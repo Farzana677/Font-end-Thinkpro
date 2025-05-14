@@ -75,7 +75,7 @@ function SimpleSlider() {
 
             {/* Content Overlay */}
             <div className="absolute inset-0 flex flex-col items-center justify-center px-4">
-              <h1 className="text-4xl md:text-5xl text-white font-bold text-center mb-6">
+              <h1 className="text-3xl md:text-4xl text-white font-bold text-center mb-6">
                 {slide.title}
               </h1>
 
